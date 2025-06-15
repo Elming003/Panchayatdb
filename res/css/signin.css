@@ -1,0 +1,157 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../image/def.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.container header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container form {
+  position: relative;
+}
+
+.form .fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.input-field input {
+  height: 45px;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.input-field input:focus {
+  border-color: #4caf50;
+}
+
+.input-field input::placeholder {
+  color: #999;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  max-width: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 30px 0 0 0;
+  background-color: #4caf50;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.submitBtn:hover {
+  background-color: #388e3c;
+}
+
+/* Styling for Go Back Button */
+.go-back {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.go-back-btn {
+  color: #4caf50;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.go-back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Styling for Sign Up Link */
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #4caf50;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+.error-message {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
